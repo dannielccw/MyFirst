@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My First</string>
+    <string name="sayhi">嗨嗨</string>
+    <string name="sayhi2">害 你好</string>
+</resources>

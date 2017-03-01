@@ -12,6 +12,16 @@
     tools:context="com.example.yvtc.myfirst.MainActivity">
 
     <TextView
+        android:text="@string/sayhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginTop="19dp"
+        android:textSize="36sp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -24,28 +34,9 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/flower1"
         android:id="@+id/imageView"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="17dp"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="TextView_dan.w"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:layout_marginTop="22dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="@string/sayhi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:layout_marginTop="19dp"
-        android:textSize="36sp"
-        android:layout_below="@+id/imageView"
-        android:layout_alignEnd="@+id/textView" />
 
     <TextView
         android:text="@string/sayhi2"
@@ -54,7 +45,16 @@
         android:id="@+id/textView4"
         android:textSize="36sp"
         android:layout_below="@+id/textView3"
-        android:layout_alignStart="@+id/textView3"
-        android:layout_marginTop="37dp" />
+        android:layout_alignStart="@+id/textView3" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="click1"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
 
 </RelativeLayout>
